@@ -90,6 +90,24 @@ button {
   color: #151515;
 }
 
+.todo-list__item.completed {
+  opacity: 0.5;
+}
+
+.todo-list__item input[type="checkbox"] {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.todo-list__item.completed p {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
 .todo-list__item button {
   position: absolute;
   right: 5px;
