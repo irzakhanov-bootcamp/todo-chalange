@@ -73,6 +73,32 @@ button {
   font-size: 18px;
 }
 
+.todo-list {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.todo-list__item {
+  display: flex;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #e0e6f8;
+  align-items: center;
+  position: relative;
+  color: #151515;
+}
+
+.todo-list__item button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  font-size: 24px;
+}
+
 .footer {
   color: aliceblue;
   font-size: 18px;
